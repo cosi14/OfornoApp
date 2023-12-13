@@ -1,5 +1,6 @@
 # OfornoApp
 Tiene como objetivo principal modernizar y agilizar la operación diaria del restaurante, permitiendo la toma de comandas desde dispositivos móviles y simplificando la gestión de reservas, especialmente en fechas especiales como Navidad.
+
 Características principales:
 
 Reserva de mesas: el restaurante puede reservar mesas seleccionando la fecha, hora y número de comensales asi gestionandolas desde la app.
@@ -13,6 +14,7 @@ Generación de tickets: Al completar un pedido, se generará automáticamente un
 Historial de pedidos: El restaurante podrán acceder a un historial de sus pedidos anteriores.
 
 Sistema de Cocina: Una pantalla donde salgan los pedidos que deben hacer y  caracteristicas como puntos o si no quieren algun ingrediente.
+
 Tecnologías a utilizar:
 
 Desarrollo para Android: Utilizando Kotlin.
