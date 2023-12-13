@@ -18,5 +18,7 @@ Sistema de Cocina: Una pantalla donde salgan los pedidos que deben hacer y  cara
 Tecnologías a utilizar:
 
 Desarrollo para Android: Utilizando Kotlin.
+
 Integración de API: Para conectar con servicios externos como Just Eat y Glovo.
+
 Base de datos: Implementar una base de datos para almacenar información de pedidos, reservas .
