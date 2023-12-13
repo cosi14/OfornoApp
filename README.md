@@ -6,12 +6,13 @@ Reserva de mesas: el restaurante puede reservar mesas seleccionando la fecha, ho
 
 Integración con otras plataformas: Se conectará con servicios de entrega como Just Eat y Glovo para recibir pedidos externos directamente en el sistema del restaurante, facilitando la gestión centralizada de todas las órdenes.
 
-Gestión de comandas: El personal del restaurante recibirá notificaciones sobre nuevos pedidos y reservas a través de la aplicación. Podrán marcar pedidos como preparados, en camino o completados para mantener un seguimiento en tiempo real.
+Gestión de comandas: El personal del restaurante recibirá notificaciones sobre nuevos pedidos a través de la aplicación. Podrán marcar pedidos como preparados en la cocina para mantener un seguimiento.
 
 Generación de tickets: Al completar un pedido, se generará automáticamente un ticket que incluirá los detalles del pedido y se enviará al cliente por correo electrónico o estará disponible para descarga desde la aplicación.
 
 Historial de pedidos: El restaurante podrán acceder a un historial de sus pedidos anteriores.
 
+Sistema de Cocina: Una pantalla donde salgan los pedidos que deben hacer y  caracteristicas como puntos o si no quieren algun ingrediente.
 Tecnologías a utilizar:
 
 Desarrollo para Android: Utilizando Kotlin.
