@@ -50,7 +50,13 @@ android {
 }
 
 dependencies {
-
+    val lifecycle_version = "2.2.0"
+    //noinspection GradleDependency
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    //noinspection GradleDependency
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation ("com.github.bumptech.glide:compose:1.0.0-beta01")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.2")
