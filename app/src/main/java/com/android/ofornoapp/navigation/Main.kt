@@ -4,13 +4,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
-import com.android.ofornoapp.feature.mesa.MesaScreen
+import com.android.ofornoapp.feature.addMesa.addMesaScreen
+import com.android.ofornoapp.feature.mesa.ROUTE
+import com.android.ofornoapp.feature.mesa.mesaScreen
 
-val ROUTE = "mesa_screen"
+
 @Composable
 fun Navigation(modifier: Modifier = Modifier){
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = ROUTE){
-      MesaScreen(navController = navController)
+      mesaScreen(navController = navController)
+        addMesaScreen()
     }
 }

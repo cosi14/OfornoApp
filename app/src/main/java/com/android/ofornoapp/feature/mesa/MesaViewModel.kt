@@ -6,15 +6,14 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MesaViewModel @Inject constructor(
-
+    private val repository: MesaRepository
 ): ViewModel(){
  private  var _state :List<Mesa> = emptyList()
-    val mesa1 = Mesa(1, 1, false ,emptyList())
-    val listaDeObjetos: List<Mesa> = listOf(mesa1)
+
     val state
         get() = _state
     init {
-         _state = listaDeObjetos
+         _state = repository.getMesas()
     }
 }
 data class Mesa(
