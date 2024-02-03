@@ -10,10 +10,14 @@ import javax.inject.Inject
 class AddMesaViewModel @Inject constructor(
     private val repository: MesaRepository
 ): ViewModel(){
-    fun guardarMesa(mesa: Mesa) {
-        repository.addMesas(mesa)
+    private  var _state  = mutableListOf<Mesa>()
+    val state
+        get() = _state
+    init {
+       _state = repository.getMesas().toMutableList();
     }
-    fun mostrarMesas(): List<Mesa> {
-      return  repository.getMesas()
+
+    fun addMesa(mesa: Mesa) {
+        repository.addMesas(mesa)
     }
 }

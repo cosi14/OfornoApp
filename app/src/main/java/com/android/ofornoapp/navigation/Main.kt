@@ -13,7 +13,8 @@ import com.android.ofornoapp.feature.mesa.mesaScreen
 fun Navigation(modifier: Modifier = Modifier){
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = ROUTE){
-      mesaScreen(navController = navController)
-        addMesaScreen()
+        addMesaScreen(navController = navController)
+        mesaScreen(navController = navController)
+
     }
 }
