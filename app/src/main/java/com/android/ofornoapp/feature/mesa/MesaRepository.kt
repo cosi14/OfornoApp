@@ -5,6 +5,7 @@ import javax.inject.Inject
 
 
 class MesaRepository @Inject constructor() {
+    //No soy capaz de que no se refresque la lista cada vez que navego
     private var listaDeMesas = mutableStateOf(mutableListOf<Mesa>())
 init {
     listaDeMesas   = mutableStateOf(mutableListOf(
