@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.android.ofornoapp.feature.mesa.Mesa
+import com.android.ofornoapp.domain.Mesa
 
 @Composable
 fun EditMesaScreen(viewModel: EditMesaViewModel = hiltViewModel(), navigationToMesa: () -> Unit) {

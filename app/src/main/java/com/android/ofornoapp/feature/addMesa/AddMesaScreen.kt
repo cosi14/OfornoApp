@@ -34,7 +34,7 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.android.ofornoapp.feature.mesa.Mesa
+import com.android.ofornoapp.domain.Mesa
 
 @Composable
 fun AddMesaScreen(
